@@ -101,3 +101,6 @@ function button1active() {
 function changeColor(color) {
     document.button1active.style.background = color;
 }
+function comingsoonmsg(){
+    window.alert("Coming Soon");
+}
