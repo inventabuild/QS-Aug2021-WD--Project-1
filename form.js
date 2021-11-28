@@ -101,5 +101,3 @@ function button1active() {
 function changeColor(color) {
     document.button1active.style.background = color;
 }
-
-
