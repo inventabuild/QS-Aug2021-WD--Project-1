@@ -256,7 +256,6 @@ body{
   font-size: 16px;
   font-weight: bold;
 }
-
 #restaurant-selection-page-row-2-header{
   margin-top: 0px;
   margin-bottom: 13px;
@@ -447,7 +446,6 @@ body{
 .contact-us-nav-ul li{
   display: inline-flex;
 }
-/*!important used to override bootstrap color*/
 .contact-us-header-link{
   margin: 10px 23px;
   text-decoration: none;
