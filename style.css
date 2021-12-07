@@ -106,7 +106,6 @@ body{
   font-weight: bold;
   padding: 3px;
   padding-top: 5px;
-  
 }
 .nav-link{
   color:black;
@@ -165,7 +164,7 @@ body{
 .types-of-foods-menu-bar{
   display: flex;
   flex-wrap: nowrap;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-top: 15px;
   margin-bottom: 0px;
   padding-bottom: 0px;
