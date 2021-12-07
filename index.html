@@ -32,24 +32,25 @@
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item radio-toolbar">
             <input type="radio" id="radioDelivery" name="radioLogistics" value="Delivery" checked>
-            <label for="radioDelivery">Delivery</label>
+            <label class="radio-delivery-label" for="radioDelivery">Delivery</label>
             <input type="radio" id="radioPickup" name="radioLogistics" value="Pickup">
             <label for="radioPickup">Pickup</label>
           </li>
-        <div class="divider-line-vertical">
-        </div>
-        <div class="flex-the-navbar">
+        <li class="divider-line-vertical">
+        </li>
+        </ul>
+        <ul class="flex-the-navbar">
           <li class="nav-item dropdown navbar-dropdown-format">
-            <a class="nav-link dropdown-toggle dropdown-toggle-hover" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <form class="nav-link dropdown-toggle dropdown-toggle-hover" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <button class="navbar-ASAP-color">ASAP</button>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            </form>
+            <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#" onclick="comingsoonmsg()">As Soon As Possible</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#" onclick="comingsoonmsg()">Schedule Date/Time</a></li>
             </ul>
           </li>
-          <span class="navbar-format-to-word">to</span>
+          <li class="navbar-format-to-word">to</li>
           <li>
             <form>
               <fieldset class="d-flex navbar-address-position">
@@ -57,100 +58,73 @@
               </fieldset>
             </form>
           </li>
-        </div>
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2 navbar-search" type="search" placeholder="Search" aria-label="Search">
-        </form>
-        <div class="navbar-signin">
+        <ul class="flex-the-navbar-search navbar-search-position">
+        <li class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </li>
+        <li class="navbar-signin">
           <a class="header-nav-link" href="#" onclick="comingsoonmsg()">Sign In</a>
-        </div>
+        </li>
+      </ul>
       </div>
     </div>
   </nav>
 </header>
 <main>
   <div class="types-of-foods-menu-bar">
-  <button class="menu-bar-fast-food-button" onclick="fastfood()">
-    <div class="food-img-div-in-bar">
-      <figure>
-        <img src="./images/fast-food-icon-removedbg-sized.png" alt="Fast Food">
-        <figcaption class="food-caption-in-bar">Fast Food</figcaption>
-      </figure>
-    </div>
-  </button>
-    <div class="food-img-div-in-bar">
-      <figure class=food-img-bar>
-        <img class="img-in-bar-width" src="./images/breakfast-icon-removedbg-sized.png" alt="Breakfast" onclick="comingsoonmsg()">
-        <figcaption class="food-caption-in-bar">Breakfast</figcaption>
-      </figure>
-    </div>
-    <div class="food-img-div-in-bar">
-      <figure class=food-img-bar>
-        <img class="img-in-bar-width" src="./images/deserts-icon-removedbg-sized.png" alt="Deserts" onclick="comingsoonmsg()">
-        <figcaption class="food-caption-in-bar">Desserts</figcaption>
-      </figure>
-    </div>
-    <div class="food-img-div-in-bar">
-      <figure class="food-img-bar">
-        <img class="img-in-bar-width" src="./images/chicken-icon-removedbg-sized.png" alt="Chicken" onclick="comingsoonmsg()">
-        <figcaption class="food-caption-in-bar">Chicken</figcaption>
-      </figure>
-    </div>
-    <div class="food-img-div-in-bar">
-      <figure class=food-img-bar>
-        <img class="img-in-bar-width" src="./images/burgers-icon-removedbg-sized.png" alt="Burgers" onclick="comingsoonmsg()">
-        <figcaption class="food-caption-in-bar">Burgers</figcaption>
-      </figure>
-    </div>
-    <div class="food-img-div-in-bar">
-      <figure class=food-img-bar>
-        <img class="img-in-bar-width" src="./images/sandwiches-icon-removebg-size.png" alt="Sandwiches" onclick="comingsoonmsg()">
-        <figcaption class="food-caption-in-bar">Sandwiches</figcaption>
-      </figure>
-    </div>
-    <div class="food-img-div-in-bar">
-      <figure class=food-img-bar>
-        <img class="img-in-bar-width" src="./images/mexican-icon-removebg-size.png" alt="Mexican" onclick="comingsoonmsg()">
-        <figcaption class="food-caption-in-bar">Mexican</figcaption>
-      </figure>
-    </div>
-    <div class="food-img-div-in-bar">
-      <figure class=food-img-bar>
-        <img class="img-in-bar-width" src="./images/coffee-icon-removebg-size.png" alt="Coffee" onclick="comingsoonmsg()">
-        <figcaption class="food-caption-in-bar">Coffee</figcaption>
-      </figure>
-    </div>
-    <div class="food-img-div-in-bar">
-      <figure class=food-img-bar>
-        <img class="img-in-bar-width" src="./images/smoothie-icon-removebg-size.png" alt="Smoothie" onclick="comingsoonmsg()">
-        <figcaption class="food-caption-in-bar">Smoothie</figcaption>
-      </figure>
-    </div>
-    <div class="food-img-div-in-bar">
-      <figure class=food-img-bar>
-        <img class="img-in-bar-width" src="./images/healthy-icon-removebg-sized.png" alt="Healthy" onclick="comingsoonmsg()">
-        <figcaption class="food-caption-in-bar">Healthy</figcaption>
-      </figure>
-    </div>
-    <div class="food-img-div-in-bar">
-      <figure class=food-img-bar>
-        <img class="img-in-bar-width"src="./images/soup-icon-removebg-sized.png" alt="Soup" onclick="comingsoonmsg()">
-        <figcaption class="food-caption-in-bar">Soup</figcaption>
-      </figure>
-    </div>
-    <div class="food-img-div-in-bar">
-      <figure class=food-img-bar>
-        <img class="img-in-bar-width" src="./images/pizza-icon-removebg-sized.png" alt="Pizza" onclick="comingsoonmsg()">
-        <figcaption class="food-caption-in-bar">Pizza</figcaption>
-      </figure>
-    </div>
-    <div class="food-img-div-in-bar">
-      <figure class=food-img-bar>
-        <img class="img-in-bar-width" src="./images/italian-icon-removebg-size.png" alt="Italian" onclick="comingsoonmsg()">
-        <figcaption class="food-caption-in-bar">Italian</figcaption>
-      </figure>
-    </div>
+    <button class="food-img-btn-in-bar" onclick="fastfood()">
+      <img src="./images/fast-food-icon-removedbg-sized.png" alt="Fast Food">
+      <small class="food-caption-in-bar">Fast Food</small>
+    </button>
+    <button class="food-img-btn-in-bar">
+      <img class="img-in-bar-width" src="./images/breakfast-icon-removedbg-sized.png" alt="Breakfast" onclick="comingsoonmsg()">
+      <small class="food-caption-in-bar">Breakfast</small>
+    </button>
+    <button class="food-img-btn-in-bar">      
+      <img class="img-in-bar-width" src="./images/deserts-icon-removedbg-sized.png" alt="Deserts" onclick="comingsoonmsg()">
+      <small class="food-caption-in-bar">Desserts</small>
+    </button>
+    <button class="food-img-btn-in-bar">
+      <img class="img-in-bar-width" src="./images/chicken-icon-removedbg-sized.png" alt="Chicken" onclick="comingsoonmsg()">
+      <small class="food-caption-in-bar">Chicken</small>
+    </button>
+    <button class="food-img-btn-in-bar">
+      <img class="img-in-bar-width" src="./images/burgers-icon-removedbg-sized.png" alt="Burgers" onclick="comingsoonmsg()">
+      <small class="food-caption-in-bar">Burgers</small>
+    </button>
+    <button class="food-img-btn-in-bar">
+      <img class="img-in-bar-width" src="./images/sandwiches-icon-removebg-size.png" alt="Sandwiches" onclick="comingsoonmsg()">
+      <small class="food-caption-in-bar">Sandwiches</small>
+    </button>
+    <button class="food-img-btn-in-bar">
+      <img class="img-in-bar-width" src="./images/mexican-icon-removebg-size.png" alt="Mexican" onclick="comingsoonmsg()">
+      <small class="food-caption-in-bar">Mexican</small>
+    </button>
+    <button class="food-img-btn-in-bar">
+      <img class="img-in-bar-width" src="./images/coffee-icon-removebg-size.png" alt="Coffee" onclick="comingsoonmsg()">
+      <small class="food-caption-in-bar">Coffee</small>
+    </button>
+    <button class="food-img-btn-in-bar">
+      <img class="img-in-bar-width" src="./images/smoothie-icon-removebg-size.png" alt="Smoothie" onclick="comingsoonmsg()">
+      <small class="food-caption-in-bar">Smoothie</small>
+    </button>
+    <button class="food-img-btn-in-bar">
+      <img class="img-in-bar-width" src="./images/healthy-icon-removebg-sized.png" alt="Healthy" onclick="comingsoonmsg()">
+      <small class="food-caption-in-bar">Healthy</small>
+    </button>
+    <button class="food-img-btn-in-bar">
+      <img class="img-in-bar-width" src="./images/soup-icon-removebg-sized.png" alt="Soup" onclick="comingsoonmsg()">
+      <small class="food-caption-in-bar">Soup</small>
+    </button>
+    <button class="food-img-btn-in-bar">
+      <img class="img-in-bar-width" src="./images/pizza-icon-removebg-sized.png" alt="Pizza" onclick="comingsoonmsg()">
+      <small class="food-caption-in-bar">Pizza</small>
+    </button>
+    <button class="food-img-btn-in-bar">
+      <img class="img-in-bar-width" src="./images/italian-icon-removebg-size.png" alt="Italian" onclick="comingsoonmsg()">
+      <small class="food-caption-in-bar">Italian</small>
+    </button>
   </div>
   <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -169,96 +143,70 @@
     <div id="restaurant-selection-page-row-1">
       <p id="restaurant-selection-page-row-1-header">Now Shipping Nationwide</p>
       <div class="restaurant-selection-page-row-1-format">
-        <p>
           <figure>
-            <img id="restaurant-selection-page-row-1-image-1" src="./images/front-page-carlo's-bakery.jpg" onclick="comingsoonmsg()">
+            <img id="restaurant-selection-page-row-1-image-1" class="restaurant-selection-images-formatting" src="./images/front-page-carlo's-bakery.jpg" onclick="comingsoonmsg()">
             <figcaption class="restaurant-selection-page-row-1-image-captions-format" id="restaurant-selection-page-row-1-image-1-caption">Carlo's Bakery</figcaption>
           </figure>
-        </p>
-        <p>
           <figure>
-            <img id="restaurant-selection-page-row-1-image-2" src="./images/font-page-panbury's-double-crust-pies.jpg" onclick="comingsoonmsg()">
+            <img id="restaurant-selection-page-row-1-image-2" class="restaurant-selection-images-formatting" src="./images/font-page-panbury's-double-crust-pies.jpg" onclick="comingsoonmsg()">
             <figcaption class="restaurant-selection-page-row-1-image-captions-format" id="restaurant-selection-page-row-1-image-2-caption">Panbury's</figcaption>
           </figure>
-        </p>
-        <p>
           <figure>
-            <img id="restaurant-selection-page-row-1-image-3" src="./images/front-page-boarderie.jpg" onclick="comingsoonmsg()">
+            <img id="restaurant-selection-page-row-1-image-3" class="restaurant-selection-images-formatting" src="./images/front-page-boarderie.jpg" onclick="comingsoonmsg()">
             <figcaption class="restaurant-selection-page-row-1-image-captions-format" id="restaurant-selection-page-row-1-image-3-caption">Boarderie</figcaption>
           </figure>
-        </p>
       </div>
     </div>
     <div id="restaurant-selection-page-row-2">
       <p id="restaurant-selection-page-row-2-header">Try Something New</p>
       <div class="restaurant-selection-page-row-2-format">
-        <p>
           <figure>
-            <img id="restaurant-selection-page-row-2-image-1" src="./images/front-page-jimmy-john's-sandwiches.jpg" onclick="comingsoonmsg()">
+            <img id="restaurant-selection-page-row-2-image-1" class="restaurant-selection-images-formatting" src="./images/front-page-jimmy-john's-sandwiches.jpg" onclick="comingsoonmsg()">
             <figcaption class="restaurant-selection-page-row-2-image-captions-format" id="restaurant-selection-page-row-2-image-1-caption">Jimmy John's Sandwiches</figcaption>
           </figure>
-        </p>
-        <p>
           <figure>
-            <img id="restaurant-selection-page-row-2-image-2" src="./images/front-page-shawarma-king.jpg" onclick="comingsoonmsg()">
+            <img id="restaurant-selection-page-row-2-image-2" class="restaurant-selection-images-formatting" src="./images/front-page-shawarma-king.jpg" onclick="comingsoonmsg()">
             <figcaption class="restaurant-selection-page-row-2-image-captions-format" id="restaurant-selection-page-row-2-image-2-caption">Shawarma King</figcaption>
           </figure>
-        </p>
-        <p>
           <figure>
-            <img id="restaurant-selection-page-row-2-image-3" src="./images/front-page-best-panda-chinese-restaurant.jpg" onclick="comingsoonmsg()">
+            <img id="restaurant-selection-page-row-2-image-3" class="restaurant-selection-images-formatting" src="./images/front-page-best-panda-chinese-restaurant.jpg" onclick="comingsoonmsg()">
             <figcaption class="restaurant-selection-page-row-2-image-captions-format" id="restaurant-selection-page-row-2-image-3-caption">Best Panda Chinese Restaurant</figcaption>
           </figure>
-        </p>
       </div>
     </div>
-
     <div id="restaurant-selection-page-row-3">
       <p id="restaurant-selection-page-row-3-header">Fastest Near You</p>
       <div class="restaurant-selection-page-row-3-format">
-        <p>
           <figure>
-            <img id="restaurant-selection-page-row-3-image-1" src="./images/front-page-chick-fil-a.jpg" onclick="comingsoonmsg()">
+            <img id="restaurant-selection-page-row-3-image-1" class="restaurant-selection-images-formatting" src="./images/front-page-chick-fil-a.jpg" onclick="comingsoonmsg()">
             <figcaption class="restaurant-selection-page-row-3-image-captions-format" id="restaurant-selection-page-row-3-image-1-caption">Chick-Fil-A</figcaption>
           </figure>
-        </p>
-        <p>
           <figure>
-            <img id="restaurant-selection-page-row-3-image-2" src="./images/front-page-mcdonald's.jpg" onclick="comingsoonmsg()">
+            <img id="restaurant-selection-page-row-3-image-2" class="restaurant-selection-images-formatting" src="./images/front-page-mcdonald's.jpg" onclick="comingsoonmsg()">
             <figcaption class="restaurant-selection-page-row-3-image-captions-format" id="restaurant-selection-page-row-3-image-2-caption">McDonald's</figcaption>
           </figure>
-        </p>
-        <p>
           <figure>
-            <img id="restaurant-selection-page-row-3-image-3" src="./images/front-page-desserts-to-your-door-delivery-only.jpg" onclick="comingsoonmsg()">
+            <img id="restaurant-selection-page-row-3-image-3" class="restaurant-selection-images-formatting" src="./images/front-page-desserts-to-your-door-delivery-only.jpg" onclick="comingsoonmsg()">
             <figcaption class="restaurant-selection-page-row-3-image-captions-format" id="restaurant-selection-page-row-3-image-3-caption">Desserts To Your Door</figcaption>
           </figure>
-        </p>
       </div>
     </div>
   </div>
-
   <div id="restaurant-selection-page-row-4">
     <p id="restaurant-selection-page-row-4-header">Most Popular Local Restaurants</p>
     <div class="restaurant-selection-page-row-4-format">
-      <p>
         <figure>
-          <img id="restaurant-selection-page-row-4-image-1" src="./images/front-page-taqueria-los-comales.jpg" onclick="comingsoonmsg()">
+          <img id="restaurant-selection-page-row-4-image-1" class="restaurant-selection-images-formatting" src="./images/front-page-taqueria-los-comales.jpg" onclick="comingsoonmsg()">
           <figcaption class="restaurant-selection-page-row-4-image-captions-format" id="restaurant-selection-page-row-4-image-1-caption">Taqueria Los Comales</figcaption>
         </figure>
-      </p>
-      <p>
         <figure>
-          <img id="restaurant-selection-page-row-4-image-2" src="./images/front-page-aha-sushi-bistro.png" onclick="comingsoonmsg()">
+          <img id="restaurant-selection-page-row-4-image-2" class="restaurant-selection-images-formatting" src="./images/front-page-aha-sushi-bistro.png" onclick="comingsoonmsg()">
           <figcaption class="restaurant-selection-page-row-4-image-captions-format" id="restaurant-selection-page-row-4-image-2-caption">Aha Sushi Bistro</figcaption>
         </figure>
-      </p>
-      <p>
         <figure>
-          <img id="restaurant-selection-page-row-4-image-3" src="./images/front-page-timothy-o'toole's.jpg" onclick="comingsoonmsg()">
+          <img id="restaurant-selection-page-row-4-image-3" class="restaurant-selection-images-formatting" src="./images/front-page-timothy-o'toole's.jpg" onclick="comingsoonmsg()">
           <figcaption class="restaurant-selection-page-row-4-image-captions-format" id="restaurant-selection-page-row-4-image-3-caption">Timothy O'Toole's</figcaption>
         </figure>
-      </p>
     </div>
   </div>
 </main>

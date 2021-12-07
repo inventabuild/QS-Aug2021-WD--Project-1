@@ -15,8 +15,8 @@ Future enhancements include integrating the website with services that allow the
 
 ## User Stories
 
-User Story 1, As a busy person with two jobs, I want a website where I can order different types of food, so I don't need to waste my time driving and waiting for service.
+User Story 1, As a busy person with two jobs, I want to easily order different types of food, so I don't need to waste my time driving and waiting for service.
 
-User Story 2, As an entrepreneur, I want to build a website where people can order different types of foods from restaurants, so that I can make a profitable fee from each order.
+User Story 2, As an entrepreneur, I want people to easily order foods from different restaurants, so that I make a profit.
 
 User Story 3, As a delivery service driver, I want to find companies hiring independent delivery drivers, so that I can work for the companies with the best pay and benefits.

@@ -55,13 +55,14 @@ function fastfood() {
         fastFoodHtml += `
             <p>
                 <figure>
-                    <img id="restaurant-selection-page-row-1-image-${i}" src="${fastFoodItems[i - 1].image}">
+                    <img class="width-373" id="restaurant-selection-page-row-1-image-${i}" src="${fastFoodItems[i - 1].image}">
                     <figcaption class="restaurant-selection-page-row-1-image-captions-format" id="restaurant-selection-page-row-1-image-1-caption">
                         ${fastFoodItems[i - 1].name}
                     </figcaption>
                 </figure>
             </p>
         `;
+        // document.getElementById(`restaurant-selection-page-row-1-image-${i}`).width = "373px";
     }
 
     document.querySelector('.restaurant-selection-page-row-1-format').innerHTML = fastFoodHtml;
@@ -84,23 +85,6 @@ function fastfood() {
     row4images.parentNode.removeChild(row4images);
 }
 
-function disablefirstbutton() {
-    document.getElementById("firstbutton").disabled = true;
-    document.getElementById("secondbutton").disabled = false;
-}
-
-function disablesecondbutton() {
-    document.getElementById("secondbutton").disabled = true;
-    document.getElementById("firstbutton").disabled = false;
-}
-
-function button1active() {
-    changeColor ('yellow');
-}
-
-function changeColor(color) {
-    document.button1active.style.background = color;
-}
 function comingsoonmsg(){
     window.alert("Coming Soon");
 }
