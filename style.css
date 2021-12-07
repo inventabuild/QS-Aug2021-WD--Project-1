@@ -163,14 +163,12 @@ body{
 }
 .types-of-foods-menu-bar{
   display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 15px;
   margin-bottom: 0px;
   padding-bottom: 0px;
   margin-left: 10px;
   margin-right: 10px;
-  overflow: auto;
 }
 .food-img-btn-in-bar{
   width: 70px;
