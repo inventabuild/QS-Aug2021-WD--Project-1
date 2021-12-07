@@ -3,7 +3,7 @@ Mitchell Rabushka
 # Project 1
 
 ## Link
-https://github.com/inventabuild/QS-Aug2021-WD--Project-1.git
+https://inventabuild.github.io/QS-Aug2021-WD--Project-1/
 
 ## Short Project Desctiption
 
